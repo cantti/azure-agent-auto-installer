@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/cantti/repos/azure-agent-auto-installer/AzureAgentAutoInstaller.csproj": {}
+  },
+  "projects": {
+    "/home/cantti/repos/azure-agent-auto-installer/AzureAgentAutoInstaller.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cantti/repos/azure-agent-auto-installer/AzureAgentAutoInstaller.csproj",
+        "projectName": "AzureAgentAutoInstaller",
+        "projectPath": "/home/cantti/repos/azure-agent-auto-installer/AzureAgentAutoInstaller.csproj",
+        "packagesPath": "/home/cantti/.nuget/packages/",
+        "outputPath": "/home/cantti/repos/azure-agent-auto-installer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cantti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.PowerShell.SDK": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
